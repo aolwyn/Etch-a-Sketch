@@ -9,7 +9,7 @@ h1 {
     font-size: 40px;
 }
 
-#size, #submit {
+#size, #submit, #clear {
     margin-bottom: 30px;
     border-radius: 10px;
     border: none;
