@@ -29,3 +29,14 @@ h1 {
     display: flex;
     flex-direction: row; /* may need to swap to column based on generate function*/
 }
+
+.line {
+    display: flex;
+    justify-content: center;
+    border: none;
+    flex-grow: 1;
+}
+
+.column {
+    flex-grow: 1;
+}
