@@ -1,0 +1,31 @@
+body {
+    background-color: #8babf1;
+    text-align: center;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+}
+
+#size, #submit {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 4px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: start;
+    gap: 110px;
+}
+
+.grid {
+    height: 980px;
+    width: 980px;
+    border: black;
+    display: flex;
+    flex-direction: row; /* may need to swap to column based on generate function*/
+}
